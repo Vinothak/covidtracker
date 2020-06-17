@@ -1,0 +1,19 @@
+{
+  "name": "covidtracker",
+  "version": "1.0.0",
+  "description": "covid app",
+  "main": "index.js",
+
+  "scripts": {
+
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "vinoth",
+  "license": "ISC",
+  "homepage":"https://vinothak.github.io/covidtracker",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "novelcovid": "^2.2.0"
+  }
+}

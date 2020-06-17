@@ -1,0 +1,19 @@
+<h1 style="text-align : center">COVID TRACKER</h1>
+
+<style>
+
+    .center{
+
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    </style>
+
+{{#each info}}
+  <h2 style="text-align: center;">{{this.country}}</h2>
+  <div style="text-align: center;">Total cases: {{this.cases}},Today cases:{{this.todayCases}}</div> 
+  <img class="center" src="{{this.countryInfo.flag}}"></img><br>
+   
+   
+{{/each}}
